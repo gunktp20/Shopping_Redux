@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import myImage from '../assets/img/natthacham.jpg'
+import myImage from '../assets/img/profile.jpg'
 
 export const Navber = () => {
     const carts = useSelector((state) => state.carts);
